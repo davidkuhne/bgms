@@ -3,14 +3,17 @@
 }
 .container {
     padding:25px;
+    width:1024px;
 }
 .row {
     margin-bottom:2px;
     text-align:center;
 }
-.col-md-6, .col-xs-4, .col-xs-3, .col-xs-6 {
-    padding-left:1px;
-    padding-right:1px;
+.xs-8 {
+    width:66%;
+}
+.xs-4 {
+    width:33%;
 }
 #info {
     overflow:hidden;
