@@ -21,7 +21,9 @@ function drawRed(pcXpos, pcYpos, ctx) {
 }
 
 $(document).keypress(function(e) {
-    if (e.which == 119) { pcYpos--; }
+    if (e.which == 119) { pcYpos--;     ctx.fillstyle="#333333";
+    ctx.fillRect(counter * 40, counter * 40, 40, 40);
+    counter++; }
     if (e.which == 115) { pcYpos++; }
     if (e.which == 97) { pxXpos--; }
     if (e.which == 100) {pcXpos++; }
