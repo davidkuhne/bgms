@@ -5,10 +5,14 @@ ctx.fillRect(0,0,640,480);
 ctx.fillStyle = "#FFFFFF";
 ctx.fillRect(20,20,600,440);
 var pcXpos = 0;
-var pcYpos = 0;  
+var pcYpos = 0;
+var counter = 0;
 
 function drawScreen() {
     drawRed(pcXpos, pcYpos, ctx);
+    ctx.fillstyle="#333333";
+    ctx.fillRect(counter * 40, counter * 40, 40, 40);
+    counter++;
 }
 
 function drawRed(pcXpos, pcYpos, ctx) {
