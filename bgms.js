@@ -26,6 +26,6 @@ $(document).keypress(function(e) {
 setInvterval(drawScreen, 1000);
 
 function f() {
-  alert('Hi')
+  alert('Hi');
 }
-setTimeout(f, 1000)
+setTimeout(f, 1000);
