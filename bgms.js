@@ -34,8 +34,8 @@ c.width = canvasWidth * tile.x;
 c.height = canvasHeight * tile.y;
 
 //Initialize grid
-var gridWidth = 16;
-var gridHeight = 12;
+var gridWidth = 24;
+var gridHeight = 24;
 var areaWidth = tile.x * gridWidth;
 var areaHeight = tile.y * gridHeight;
 
